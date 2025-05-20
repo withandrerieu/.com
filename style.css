@@ -1,0 +1,164 @@
+/*-----------dashboardforum---------*/
+.col-8{
+  flex-basis: 60%;
+  min-width: 300px;
+  margin-bottom: 10px;
+}
+.col-8 img{
+  width: 120%;
+}
+.col-8:hover{
+  transform: translateY(-10px);
+}
+
+.col-8{
+  cursor: pointer;
+  transition: transform 0.9s;}
+
+.dashboardforum .col-8{
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 0 20px 10px rgb(9, 2, 97);
+  cursor: pointer;
+  transition: transform 0.9s;
+  font-size: 16px;
+  font-weight: 500;
+}
+.dashboardforum .col-8 img{
+  width: 10%;
+  margin-top: 0px;
+  border-radius: 0%;
+}
+.dashboardforum{
+  padding-top: 0px;
+}
+.dashboardforum .col-8:hover{
+  transform: translateY(-20px);
+}
+.fa.fa-quote-left{
+  font-size: 34px;
+  color: #2c088f;
+}
+
+
+.row34{
+  display: flex;
+  align-items: left;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container34 {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.otp-inputs {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.otp-inputs input[type="text"] {
+  width: 50px;
+  height: 50px;
+  margin: 50px 8px;
+  border: 5px solid #34495e;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 150%;
+  text-align: center;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.otp-inputs input[type="text"]:focus {
+  border-color: #0f11a3;
+  background-color: transparent;
+  box-shadow: 0 0 20px rgba(57, 187, 238, 0.5);
+  outline: none;
+  transform: scale(1.1);
+}
+.otp-inputs input[type="text"]:hover {
+  border-color: #1abc9c;
+  background-color: transparent;
+}
+
+body{
+  color: rgb(0, 0, 0);
+}
+
+.row35{
+  display: flex;
+  align-items: left;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container35 {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.col-6{
+  flex-basis: 60%;
+  min-width: 300px;
+  margin-bottom: 10px;
+}
+.col-6 img{
+  width: 120%;
+}
+.col-6:hover{
+  transform: translateY(-10px);
+}
+
+.col-6{
+  cursor: pointer;
+  transition: transform 0.9s;}
+
+.dashboardforum2 .col-6{
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 0 20px 10px rgb(9, 2, 97);
+  cursor: pointer;
+  transition: transform 0.9s;
+  font-size: 16px;
+  font-weight: 500;
+}
+.dashboardforum2 .col-6 img{
+  width: 10%;
+  margin-top: 0px;
+  border-radius: 0%;
+}
+.dashboardforum2{
+  padding-top: 0px;
+}
+.dashboardforum2 .col-6:hover{
+  transform: translateY(-20px);
+}
+
+.otp-inputs3 input[type="text"] {
+  width: 200px;
+  height: 50px;
+  margin: 50px 8px;
+  border: 5px solid #34495e;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 150%;
+  text-align: center;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.otp-inputs3 input[type="text"]:focus {
+  border-color: #0f11a3;
+  background-color: transparent;
+  box-shadow: 0 0 20px rgba(57, 187, 238, 0.5);
+  outline: none;
+  transform: scale(1.1);
+}
+.otp-inputs3 input[type="text"]:hover {
+  border-color: #1abc9c;
+  background-color: transparent;
+}
